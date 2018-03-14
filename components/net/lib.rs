@@ -18,6 +18,8 @@ extern crate ipc_channel;
 extern crate lazy_static;
 #[macro_use] extern crate log;
 #[macro_use] #[no_link] extern crate matches;
+extern crate malloc_size_of;
+#[macro_use] extern crate malloc_size_of_derive;
 #[macro_use]
 extern crate mime;
 extern crate mime_guess;
